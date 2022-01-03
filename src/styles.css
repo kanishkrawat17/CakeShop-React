@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin : 0px;
+    padding :0px
+}
+
+th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+p {
+  color: red;
+}
+
+header {
+display:  flex;
+justify-content:  center;
+align-items: center;
+
+} 
+.table-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cake-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+
+}
+
+.navbar{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #88888888;
+}
+.btn {
+    position: absolute;
+    right: 12%;
+
+}
+
+img {
+  height: 10%;
+  width: 20%;
+  display: block;
+  margin: auto;
+  margin: 0.5rem;
+}
+
+.cake-images{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: "column";
+}
+
+.content{
+    height: 20%;
+    width: 100%;
+    margin: auto;
+}
+
+.login-form{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header{
+  margin: 2rem;
+}
+
+.form-container{
+  height: 20rem;
+  width: 45%;
+  border :  1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cake-form div , .cake-form label, .cake-form input{
+  margin : .5rem
+}
+
+table{
+  margin: auto;
+  border: 1px solid black;
+}
+
+.usual-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.usual-info label , .usual-info input{
+  margin : 0.5rem
+}
+
+.captcha {
+  display :  flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin :  16px
+}
+
+.captcha button {
+  margin : 16px;
+  width : 100%;
+  height: 100%;
+
+}
+
+
+
+
+
+
+
+
